@@ -1,0 +1,227 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+
+
+
+}
+
+body {
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 80px;
+    width: auto;
+    background-color: rgb(80, 38, 118);
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+
+
+}
+
+nav ul li {
+    list-style: none;
+    margin: 0px 23px;
+}
+
+.left {
+    font-size: 1.9rem;
+    font-weight: 700;
+}
+
+.first {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 70px 0;
+}
+
+.first>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 3rem;
+}
+
+#girl-png {
+    width: 80%;
+    transform: rotate(360 deg);
+    margin: 50px 0;
+}
+
+#inner {
+    width: 100%;
+}
+
+#purple {
+    color: rgb(161, 92, 226);
+}
+
+#element {
+    color: rgb(161, 92, 226);
+    ;
+}
+
+#xyz:hover {
+    color: rgb(139, 72, 202);
+    font-size: 1.0rem;
+}
+
+.About-us {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+
+}
+
+.inner-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 0.56rem;
+
+    width: 60%;
+    height: 30%;
+    padding: 30px 40px;
+    background-color: white;
+
+
+}
+
+h1 {
+    font-size: 2rem;
+    font-weight: 600;
+    color: rgb(0, 0, 33);
+    padding: 10px 20px;
+
+
+}
+
+.Describe {
+    font-size: 1rem;
+    font-weight: 300;
+    color: rgb(133, 55, 206)
+}
+
+.inner-container {
+    margin-bottom: 60px;
+}
+
+li {
+    list-style: none;
+}
+
+hr {
+    border: 0;
+    background-color: rgb(173, 111, 231);
+    height: 1px;
+    margin: 40px 84px;
+}
+
+
+h4 {
+    margin: 5px;
+}
+
+.leftSection .git {
+    padding: 10px 10px;
+    color: white;
+    font-size: 0.85rem;
+    margin-top: 10px;
+    background-color: rgb(73, 23, 120);
+    border: 1px solid white;
+
+}
+
+.button {
+    padding: 50px, 0;
+}
+
+#hash {
+    background-color: white;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+}
+
+.fourth {
+    max-width: 80vw;
+    margin: auto;
+    height: 80vh;
+    margin-top: 90px;
+}
+
+#skill-head {
+    font-size: 2rem;
+}
+
+.fourth .box {
+    background-color: rgb(235, 228, 228);
+    width: 80vw;
+    height: 2px;
+    margin: 56px 0;
+    display: flex;
+}
+
+.vertical {
+    height: 60px;
+    width: 1px;
+    background-color: rgb(124, 51, 192);
+    margin: 0 100px;
+}
+
+#vertical-img {
+
+    width: 35px;
+    height: 35px;
+    position: relative;
+    top: -37px;
+    left: -9px;
+
+}
+
+#java-img {
+    width: 45px;
+    height: 46px;
+    position: relative;
+    top: -42px;
+    left: -9px;
+}
+
+.outer {
+    height: 300px;
+    background-color: coral;
+    border: 1px solid black;
+}
+
+
+.div-foot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#foot-para {
+    color: rgb(191, 187, 194);
+}
